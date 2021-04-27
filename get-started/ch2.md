@@ -591,7 +591,7 @@ class Publication {
         console.log(`
             Title: ${ this.title }
             By: ${ this.author }
-            ${ this.pubDate }
+            publishedOn: ${ this.pubDate }
         `);
     }
 }
